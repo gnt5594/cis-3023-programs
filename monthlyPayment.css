@@ -1,0 +1,68 @@
+body{
+   font-family: 'Lora', serif;
+   background-color: #e7e9f0;
+   margin: 0 auto;
+   width: 670px;
+   height: 800px;
+   border: 5px solid  #535f80;
+   padding: 0 2em 1em;
+   
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+   color: #535f80;
+   margin-bottom: .5em;
+   font-size: 42px;
+   text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+   color: #d8ab4e;
+   font-size: 14px;
+   text-align: center;
+}
+
+label{
+   float: left;
+   width: 11em;
+   text-align: right;
+   color: #535f80;
+   font-size: 19px;
+}
+
+input{
+  
+   margin-left: 1em;
+   margin-bottom: .5em;
+   text-align: center;
+  border: 14px ;
+  border-radius: 9px;
+  
+
+}
+
+
+input[text]{
+   border-style: groove;
+}
+
+#calc
+{
+  font-size: 14px;
+  background-color: #fefefe;
+  color: #535f80;
+  width: 7em;
+  cursor: pointer;
+  opacity: .6;
+  transition: .3s;
+}
+#calc:hover{opacity:1}
+
+
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script>
+        var lowerCaseStr = "abcdefghijklmnopqrstuvwxyz";
+        var upperCaseStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        var resultStr = "";
+        for(var i =0; i < upperCaseStr.length; i++)
+        {
+            resultStr += upperCaseStr[i] + " " + upperCaseStr.charCodeAt(i) + "\n";
+        }
+        
+        for(var i =0; i <lowerCaseStr.length; i++)
+        {
+           resultStr += lowerCaseStr[i] + " " + lowerCaseStr.charCodeAt(i) + "\n";
+        }
+        alert(resultStr);
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
