@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Essay Writer</title>
+    <link rel="stylesheet" href="essay.css">​
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <script src="essay.js"></script>​
+</head>
+<body>
+    <main>
+        <h1>Generate An Essay</h1>
+        <p>
+            Load up the nouns, verbs and adjectives then hit generate
+        </p>
+        
+        <section id="compCalc">
+            
+            <table>
+                <tr>
+                    <td><label for="articles"> List Articles:</label>          <textarea id="article" placeholder = "Enter articles list here" class = "input_words"></textarea></td>
+                    <td><label for="prepositions"> List Prepositions:</label>  <textarea id="preposition" placeholder = "Enter prepositions list here" class = "input_words"></textarea></td>
+                    <td><label for="nouns"> List Nouns:</label>                <textarea id="noun" placeholder = "Enter nouns list here" class = "input_words"></textarea></td>
+                    <td><label for="verbs"> List Verbs:</label>                <textarea id="verb" placeholder = "Enter verbs list here" class = "input_words"></textarea></td>
+                    <td><label for="adjectives"> List Adjectives:</label>      <textarea id="adjective" placeholder = "Enter adjectives list here" class = "input_words"></textarea></td>
+                </tr>
+            </table>
+            <br />
+            
+            <input type="button" id="generate" value="Generate" />
+            <br>
+            <br>
+            <label for="essay">Random Essay:</label>
+            <textarea id="essay" placeholder = "Essay will be shown here..." Disabled="disabled"></textarea>
+            <br />
+            
+            <br />
+            
+            <div id="left"></div>
+            <div id="right"></div>
+            <div id="top"></div>
+            <div id="bottom"></div>
+        </section>
+    </main>
+</body>
+</html>

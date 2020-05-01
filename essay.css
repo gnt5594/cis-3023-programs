@@ -1,0 +1,71 @@
+body{
+    padding: 20px;
+    background: #faf6f2;
+    font-family: 'Lora', serif;
+}
+
+label{
+    color: #d49e8d;
+}
+
+.input_words{
+    display: inline;
+    height: 200px;
+    width: 250px;
+    color: #d8ab4e;   
+}
+
+#essay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px;
+    color: #d8ab4e;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #d49e8d;
+}
+
+p{
+    text-align: center;
+    color: #d8ab4e;
+}
+
+#generate{
+    vertical-align: top;
+    margin-left: 630px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+    opacity: .6;
+    transition: .3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#generate:hover{opacity: 1}
+
+#top, #bottom, #left, #right {
+	background: #e4c2c1;
+	position: fixed;
+	}
+	#left, #right {   
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
